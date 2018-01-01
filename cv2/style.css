@@ -42,7 +42,7 @@ div.body_div{
 }
 
 div.img1{
-	background: url(./assets/ghibli1.jpg);
+	background: url(https://toronto966.github.io/duyanhv/cv2/assets/ghibli1.jpg);
 	width: 467px;
 	height: 467px;
 	position: relative;
@@ -58,7 +58,7 @@ div.img1:hover >  .overlay {
 } 
 
 div.img2{
-	background: url(./assets/ghibli2.jpeg);
+	background: url(https://toronto966.github.io/duyanhv/cv2/assets/ghibli2.jpeg);
 	width: 467px;
 	height: 467px;
 	position: relative;
