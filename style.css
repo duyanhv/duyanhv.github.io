@@ -212,3 +212,12 @@ div.first_content .img{
     background-color: #F74C3B;
     top:100%;
 }
+/*  #nav_toggle:hover span::before{
+    transition: 0.01s;
+    top: -5px;
+}
+
+#nav_toggle:hover span::after{
+    transition: 0.01s;
+    bottom: -5px;
+} */
