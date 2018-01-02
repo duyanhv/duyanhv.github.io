@@ -27,6 +27,9 @@ div.wrapper{
     font-weight: lighter;
     font-size: 22px;
 }
+
+
+
 #nav_toggle{
     position: absolute;
     right: 25px;
@@ -51,6 +54,7 @@ div.wrapper{
 #nav_toggle span::before{
     top: -4px;
 }
+
 
 #nav_toggle span::after{
     bottom: -4px;
@@ -79,7 +83,7 @@ div.wrapper{
 }
 
 .mainpage_img{
-    background: url(./assets/mainpage_background.jpg);
+    background: url(./assets/mainpage_background.JPG);
     width: 300px;
     height: 300px;
     left: 50%;
@@ -89,7 +93,19 @@ div.wrapper{
     background-size: cover;
     border-radius: 50%;
     padding-left:50px;
+    position: fixed;
     z-index: 0.5;
+}
+
+.cool_overlay{
+    height: 100%;
+    width: 0%;
+    z-index: 1;
+    left:0;
+    top: 0;
+    background-color: #4B4BE1;
+    transition: 0.5s;
+    position: fixed;
 }
 
 .overlay{
@@ -99,7 +115,7 @@ div.wrapper{
     z-index: 1;
     left:0;
     top: 0;
-    background-color: #4B4BE1;
+    
     background-color: #FFC80F;
     overflow-x: hidden;
     transition: 0.5s;
@@ -138,7 +154,6 @@ div.wrapper{
 .nav a:hover{
     text-decoration: none;
 }
-
 
 .first_content{
     width: 100%;
