@@ -20,3 +20,53 @@ function navButton(){
     }
   }
 
+function heyhey(){
+  
+}
+
+$(window).scroll(function(){
+  // var setScroll = 206;
+  // if($(window).scrollTop() == setScroll){
+  //   setScroll = 0;
+  //   setScroll++;
+  //   $("div#about1").css({
+  //     "left": setScroll + "px" 
+  //   });
+  // }
+  console.log($(window).scrollTop());
+  if($(window).scrollTop() >= 311){
+    $("div#about1").css({
+      "left": -6 + "%"
+    });
+
+    $("div#about1_id").css({
+      "right": 2 + "%"
+    });
+
+    $("div#about2_id").css({
+      "right": 2 + "%"
+    });
+
+    // $("img#first_content_img").css({
+    //   "visibility": "visible"
+    // })
+  
+  }else{
+    $("div#about1").css({
+      "left": -50 + "%"
+    });
+
+    $("div#about1_id").css({
+      "right": -30 + "%"
+    });
+
+    $("div#about2_id").css({
+      "right": -30 + "%"
+    });
+
+    // $("img#first_content_img").css({
+    //   "visibility": "hidden"
+    // })
+  }
+});
+

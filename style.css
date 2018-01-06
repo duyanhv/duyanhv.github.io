@@ -169,11 +169,18 @@ div.wrapper{
 div.first_content .about{
     position: relative;
     top: -160px;
-    left: -70px;
+    
     width: 30%;
     height: 40%;
     border-radius: 10px;
     background-color: #3F43B5;
+
+    transition: 1s;
+    
+}
+#about1{
+    
+    left: -50%;
 }
 
 div.first_content .about p{
@@ -184,12 +191,13 @@ div.first_content .about p{
     float: right;
     width: 30%;
     height: 10%;
+    right: -30%;
 }
 
 #about2_id{
     display: block;
     float: right;
-
+    right: -30%;
 }
 
 div.first_content .img{
@@ -202,6 +210,13 @@ div.first_content .img{
     border-radius: 10%;
     left: 50%;
     transform: translate(-50%, -150%);
+
+    transition: 1s;
+}
+
+#first_content_img{
+    
+    /* visibility: hidden; */
 }
 
 .second_content{
