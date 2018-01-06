@@ -47,9 +47,7 @@ $(window).scroll(function(){
       "right": 2 + "%"
     });
 
-    // $("img#first_content_img").css({
-    //   "visibility": "visible"
-    // })
+    $("#first_content_img").css("opacity", "1");
   
   }else{
     $("div#about1").css({
@@ -64,9 +62,17 @@ $(window).scroll(function(){
       "right": -30 + "%"
     });
 
-    // $("img#first_content_img").css({
-    //   "visibility": "hidden"
-    // })
+    $("#first_content_img").css("opacity", "0");
+  }
+
+  if($(window).scrollTop() >= 872){
+    $("span#span2").css({
+      "width": 100 + "px"
+    });
+  }else{
+    $("span#span2").css({
+      "width": 0 + "px"
+    });
   }
 });
 
