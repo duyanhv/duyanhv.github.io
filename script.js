@@ -69,10 +69,6 @@ $(window).scroll(function(){
     $("span#span2").css({
       "width": 100 + "px"
     });
-  }else{
-    $("span#span2").css({
-      "width": 0 + "px"
-    });
   }
 });
 
