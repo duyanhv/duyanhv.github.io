@@ -268,3 +268,12 @@ div.first_content .img{
     transition: 1s;
     z-index: 0.4;
 }
+
+@media screen and (max-width: 412px) {
+    #about1{
+        width: 70%;
+        height: 20%;
+        /* left: -100%; */
+        margin-left: -20%;
+    }
+}

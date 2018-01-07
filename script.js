@@ -65,9 +65,45 @@ $(window).scroll(function(){
     $("#first_content_img").css("opacity", "0");
   }
 
+  if($(window).scrollTop() >= 311 && $(window).width() <= 412){
+    $("div#about1").css({
+      "left": 30 + "%"
+    });
+
+    $("div#about1_id").css({
+      "right": 2 + "%"
+    });
+
+    $("div#about2_id").css({
+      "right": 2 + "%"
+    });
+
+    $("#first_content_img").css("opacity", "1");
+  
+  }else{
+    $("div#about1").css({
+      "left": "",
+      "margin-left": -20 + "%"
+    });
+
+    $("div#about1_id").css({
+      "right": -30 + "%"
+    });
+
+    $("div#about2_id").css({
+      "right": -30 + "%"
+    });
+
+    $("#first_content_img").css("opacity", "0");
+  }
+
   if($(window).scrollTop() >= 872){
     $("span#span2").css({
       "width": 100 + "px"
+    });
+  }else{
+    $("span#span2").css({
+      "width": 0 + "px"
     });
   }
 });
