@@ -175,7 +175,7 @@ div.first_content .about{
     height: 40%;
     border-radius: 10px;
     background-color: #3F43B5;
-
+    padding: 10px;
     transition: 1s;
     
 }
@@ -193,12 +193,14 @@ div.first_content .about p{
     width: 30%;
     height: 10%;
     right: -30%;
+
 }
 
 #about2_id{
     display: block;
     float: right;
     right: -30%;
+    top: -210px;
 }
 
 div.first_content .img{
@@ -275,6 +277,7 @@ div.first_content .img{
         height: 20%;
         /* left: -100%; */
         margin-left: -20%;
+        top:-38%;
     }
 
     #first_content_img{
@@ -288,11 +291,11 @@ div.first_content .img{
         width: 60%;
         height: 10%;
         right: -60%;
-        top: -38%;
+        top: -45%;
     }
 
     #about2_id{
-        top: -74%;
+        top: -84%;
         float: right;
         right: -70%;
         width: 70%;
