@@ -20,9 +20,74 @@ function navButton(){
     }
   }
 
-function heyhey(){
+
+  function mobileScroll(windowScroll, windowWidth){
+    if((windowScroll >= 311) && (windowWidth <= 412)){
+      console.log(windowWidth);
+        $("div#about1").css({
+           "left": 30 + "%"
+        });
+        $("div#about1_id").css({
+          "right": 10 + "%"
+        });
+    
+        $("div#about2_id").css({
+          "right": 9 + "%"
+        });
+    
+        $("#first_content_img").css("opacity", "1");
+
+    }else if((windowScroll <= 311) && (windowWidth <= 412)){
+      $("div#about1").css({
+        "left": "",
+        "margin-left": -20 + "%"
+      });
+
+      $("div#about1_id").css({
+        "right": -60 + "%"
+      });
   
-}
+      $("div#about2_id").css({
+        "right": -70 + "%"
+      });
+  
+      $("#first_content_img").css("opacity", "0");
+    }
+  }
+  
+  function webScroll(windowScroll, windowWidth){
+    if(windowScroll >= 311 && windowWidth > 500){
+      console.log(windowWidth);
+      $("div#about1").css({
+        "left": -6 + "%"
+      });
+  
+      $("div#about1_id").css({
+        "right": 2 + "%"
+      });
+  
+      $("div#about2_id").css({
+        "right": 2 + "%"
+      });
+  
+      $("#first_content_img").css("opacity", "1");
+    
+    }else if(windowScroll <= 311 && windowWidth > 500){
+      $("div#about1").css({
+        "left": -50 + "%"
+      });
+  
+      $("div#about1_id").css({
+        "right": -30 + "%"
+      });
+  
+      $("div#about2_id").css({
+        "right": -30 + "%"
+      });
+  
+      $("#first_content_img").css("opacity", "0");
+    }
+  }
 
 $(window).scroll(function(){
   // var setScroll = 206;
@@ -33,69 +98,12 @@ $(window).scroll(function(){
   //     "left": setScroll + "px" 
   //   });
   // }
-  console.log($(window).scrollTop());
-  if($(window).scrollTop() >= 311){
-    $("div#about1").css({
-      "left": -6 + "%"
-    });
+  // console.log($(window).scrolzlTop());
+  webScroll($(window).scrollTop(), $(window).width());
+ 
+  mobileScroll($(window).scrollTop(), $(window).width());
 
-    $("div#about1_id").css({
-      "right": 2 + "%"
-    });
-
-    $("div#about2_id").css({
-      "right": 2 + "%"
-    });
-
-    $("#first_content_img").css("opacity", "1");
   
-  }else{
-    $("div#about1").css({
-      "left": -50 + "%"
-    });
-
-    $("div#about1_id").css({
-      "right": -30 + "%"
-    });
-
-    $("div#about2_id").css({
-      "right": -30 + "%"
-    });
-
-    $("#first_content_img").css("opacity", "0");
-  }
-
-  if($(window).scrollTop() >= 311 && $(window).width() <= 412){
-    $("div#about1").css({
-      "left": 30 + "%"
-    });
-
-    $("div#about1_id").css({
-      "right": 2 + "%"
-    });
-
-    $("div#about2_id").css({
-      "right": 2 + "%"
-    });
-
-    $("#first_content_img").css("opacity", "1");
-  
-  }else{
-    $("div#about1").css({
-      "left": "",
-      "margin-left": -20 + "%"
-    });
-
-    $("div#about1_id").css({
-      "right": -30 + "%"
-    });
-
-    $("div#about2_id").css({
-      "right": -30 + "%"
-    });
-
-    $("#first_content_img").css("opacity", "0");
-  }
 
   if($(window).scrollTop() >= 872){
     $("span#span2").css({

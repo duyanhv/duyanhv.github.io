@@ -276,4 +276,26 @@ div.first_content .img{
         /* left: -100%; */
         margin-left: -20%;
     }
+
+    #first_content_img{
+        width:60%;
+        height: 30%;
+        top: 73%;
+    }
+
+    #about1_id{
+        float: right;
+        width: 60%;
+        height: 10%;
+        right: -60%;
+        top: -38%;
+    }
+
+    #about2_id{
+        top: -74%;
+        float: right;
+        right: -70%;
+        width: 70%;
+        height: 20%;
+    }
 }
