@@ -110,7 +110,7 @@ div.wrapper{
 
 .overlay{
     height: 100%;
-    width: 0%;
+    width: 100%;
     position: fixed;
     z-index: 1;
     left:0;
@@ -275,8 +275,7 @@ div.first_content .img{
     #about1{
         width: 70%;
         height: 20%;
-        /* left: -100%; */
-        margin-left: -20%;
+        left: -99%;
         top:-38%;
     }
 
@@ -290,7 +289,7 @@ div.first_content .img{
         float: right;
         width: 60%;
         height: 10%;
-        right: -60%;
+        right: -65%;
         top: -45%;
     }
 
@@ -300,5 +299,22 @@ div.first_content .img{
         right: -70%;
         width: 70%;
         height: 20%;
+    }
+
+    #overlay_id{
+        text-align: center;
+        /* display: block; */
+    }
+
+    #overlay_about{
+        margin: 50% auto 0;
+        /* display: block; */
+    }
+
+    #overlay_nav{
+        /* display: block; */
+        position: relative;
+        margin: 20% auto;
+        float: none;   
     }
 }

@@ -25,7 +25,7 @@ function navButton(){
     if((windowScroll >= 311) && (windowWidth <= 412)){
       console.log(windowWidth);
         $("div#about1").css({
-           "left": 30 + "%"
+           "left": -12 + "%"
         });
         $("div#about1_id").css({
           "right": 10 + "%"
@@ -39,12 +39,12 @@ function navButton(){
 
     }else if((windowScroll <= 311) && (windowWidth <= 412)){
       $("div#about1").css({
-        "left": "",
-        "margin-left": -20 + "%"
+        "left": -99 + "%"
+        // "margin-left": -20 + "%"
       });
 
       $("div#about1_id").css({
-        "right": -60 + "%"
+        "right": -65 + "%"
       });
   
       $("div#about2_id").css({
