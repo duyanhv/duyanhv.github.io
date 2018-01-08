@@ -307,7 +307,8 @@ div.first_content .img{
     }
 
     #overlay_about{
-        margin: 50% auto 0;
+        margin: 44% auto 0;
+        height: 30%;
         /* display: block; */
     }
 
