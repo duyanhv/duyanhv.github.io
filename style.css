@@ -138,7 +138,7 @@ div.wrapper{
 .nav{
     position:relative;
     width: 200px;
-    height: 300px;
+    height: 200px;
     font-size:30px;
     margin: 200px 234px 0 0;
     float:right;
@@ -192,14 +192,14 @@ div.first_content .about p{
     float: right;
     width: 30%;
     height: 10%;
-    right: -30%;
+    right: -37%;
 
 }
 
 #about2_id{
     display: block;
     float: right;
-    right: -30%;
+    right: -37%;
     top: -210px;
 }
 
@@ -248,7 +248,7 @@ div.first_content .img{
 }
 
 .second_content span{
-    width: 150px;
+    width: 36%;
     height: 22px;
     border: 1px solid #000000;
     border-radius: 10px;
@@ -296,7 +296,7 @@ div.first_content .img{
     #about2_id{
         top: -84%;
         float: right;
-        right: -70%;
+        right: -78%;
         width: 70%;
         height: 20%;
     }
@@ -318,4 +318,54 @@ div.first_content .img{
         margin: 20% auto;
         float: none;   
     }
+
+    div.second_content{
+        overflow: hidden;
+ 
+    }
+
+    div.second_content .wrapper{
+        /* position: relative; */
+        padding: 30px 20px;
+        
+    }
+
+
+    div.second_content .wrapper h1,
+    div.second_content .wrapper p
+    {
+        margin: 0 0 40px;
+    }
+
+    #span1{
+        width: 60%;
+
+    }
+
+    .overlay .about{
+        float: none;
+
+    }
 }
+
+div.second_content{
+    overflow: hidden;
+
+}
+
+div.second_content .wrapper{
+    /* position: relative; */
+    padding: 30px 50px;
+    
+    
+}
+
+
+div.second_content .wrapper h1,
+div.second_content .wrapper p
+{
+    margin: 0 0 40px;
+}
+
+
+

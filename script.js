@@ -56,10 +56,11 @@ function navButton(){
   }
   
   function webScroll(windowScroll, windowWidth){
+    
     if(windowScroll >= 311 && windowWidth > 500){
       console.log(windowWidth);
       $("div#about1").css({
-        "left": -6 + "%"
+        "left": -70  + "px"
       });
   
       $("div#about1_id").css({
@@ -78,27 +79,20 @@ function navButton(){
       });
   
       $("div#about1_id").css({
-        "right": -30 + "%"
+        "right": -37 + "%"
       });
   
       $("div#about2_id").css({
-        "right": -30 + "%"
+        "right": -37 + "%"
       });
   
       $("#first_content_img").css("opacity", "0");
     }
   }
 
+
 $(window).scroll(function(){
-  // var setScroll = 206;
-  // if($(window).scrollTop() == setScroll){
-  //   setScroll = 0;
-  //   setScroll++;
-  //   $("div#about1").css({
-  //     "left": setScroll + "px" 
-  //   });
-  // }
-  // console.log($(window).scrolzlTop());
+  
   webScroll($(window).scrollTop(), $(window).width());
  
   mobileScroll($(window).scrollTop(), $(window).width());
@@ -107,7 +101,7 @@ $(window).scroll(function(){
 
   if($(window).scrollTop() >= 872){
     $("span#span2").css({
-      "width": 100 + "px"
+      "width": 40 + "%"
     });
   }else{
     $("span#span2").css({

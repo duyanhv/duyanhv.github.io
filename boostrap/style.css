@@ -1,0 +1,10 @@
+.row{
+    /* width: 30%;
+    height: 20%; */
+    background-color: lightgreen;
+}
+.col{
+    background-color: lightblue;
+    /* width: 30%;
+    height: 20%; */
+}
