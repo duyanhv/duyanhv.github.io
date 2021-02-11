@@ -1,76 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Duy Anh Vu</title>
-    <link href="https://twitchemotes.com/favicon.png" rel="shortcut icon" type="image/png">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="profile_name">
-            <p>Vu Duy Anh</p>
-        </div>
-        <div id="cool_overlay_id" class="cool_overlay">
-            
-        </div>   
-        <div id="overlay_id" class="overlay">
-            
-            <div class="overlay about" id="overlay_about">
-                <h3>About DuyAnhV</h3>
-                <p>Something something...</p>
+    <div class="home-page">
+
+        <div class="page-content">
+
+            <div style="background-color: red; position: absolute; right: 130px; border-radius: 50px;">
+                <ul id="navigation">
+                    <li><a id="link-home">Home</a></li>
+                    <li><a id="link-resume">Resume</a></li>
+                    <li><a id="link-contact">Contact</a></li>
+                </ul>
             </div>
-    
-            <div class="overlay nav" id="overlay_nav">
-                <a href="./cv1/index.html">CV 1</a>
-                <a href="./cv2/index.html">CV 2</a>
-                <a href="" onclick="whyTho()">Homepage</a>
+            <div class="center-content header">
+                <div class="header-picture--size-small">
+                    <img src="assets/profile_pic.jpg" alt="Duy Anh Vu">
+                </div>
+                <span class="space-between-section heading-text">Duy Anh Vu</span>
+                <span class="space-between-text sub-heading-text">Web Developer</span>
+                <div class="social-links center-content">
+                    <a href="https://linkedin.com/in/duyanhv" target="_blank">
+                        <span class="icon icon-linkedin"></span>
+                    </a>
+                    <a href="https://github.com/duyanhv" target="_blank">
+                        <span class="icon icon-github"></span>
+                    </a>
+                </div>
+                <a href="#" class="space-between-section">
+                    <div class="center-content btn-primary--border-white">
+                        <span>Download CV</span>
+                    </div>
+                </a>
             </div>
-        </div>
-
-
-        <a onclick="navButton()" id="nav_toggle"><span></span></a>
-        
-        <div class="mainpage_img">
-
-        </div>
-
-        <div class="first_content">
-            <div class="first_content about" id="about1">
-                <p>Something something</p>
+            <div class="content">
+                <div id="home" class="flip-box-inner">
+                    <div class="flip-box-front">
+                        a
+                    </div>
+                    <div class="flip-box-back">b
+                    </div>
+                </div>
             </div>
 
-            <div class="first_content about" id="about1_id">
-                <p>Something something</p>
-            </div>
-
-             <div class="first_content about" id="about2_id">
-                <p>Something something</p>
-            </div>
-
-            <div class="first_content img" id="first_content_img">
-                
-            </div>
         </div>
 
-        <div class="second_content">
-            <div class="wrapper">
-                <h1>Skills</h1>
-                <p>java</p> <span id="span1"><span id="span2"></span></span><br>
-                <p>java</p> <span id="span1"><span id="span2"></span></span><br>
-                <p>java</p> <span id="span1"><span id="span2"></span></span><br>
-                <p>java</p> <span id="span1"><span id="span2"></span></span>
-
-            </div>
-        </div>
     </div>
-    
 </body>
-<script src="script.js"></script>
+<script src="https://hcaptcha.com/1/api.js" async defer></script>
+
+<script src="scripts.js"></script>
 
 </html>
